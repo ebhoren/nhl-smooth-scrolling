@@ -1,0 +1,157 @@
+{
+  "ANA": {
+    "name": "Ducks",
+    "city": "Anaheim",
+    "colors": ["#010101", "#F47A38", "#FFFFFF", "#F47A38"]
+  },
+  "ARI": {
+    "name": "Coyotes",
+    "city": "Arizona",
+    "colors": ["#8C2633", "#E2D6B5", "#FFFFFF", "#111111"]
+  },
+  "BOS": {
+    "name": "Bruins",
+    "city": "Boston",
+    "colors": ["#000000", "#FFB81C", "#FFB81C", "#FFFFFF"]
+  },
+  "BUF": {
+    "name": "Sabres",
+    "city": "Buffalo",
+    "colors": ["#002654", "#FCB514", "#FCB514", "#FFFFFF"]
+  },
+  "CGY": {
+    "name": "Flames",
+    "city": "Calgary",
+    "colors": ["#C8102E", "#F1BE48", "#111111", "#F1BE48"]
+  },
+  "CAR": {
+    "name": "Hurricanes",
+    "city": "Carolina",
+    "colors": ["#CC0000", "#000000", "#FFFFFF", "#000000"]
+  },
+  "CHI": {
+    "name": "Blackhawks",
+    "city": "Chicago",
+    "colors": ["#CF0A2C", "#000000", "#FFFFFF", "#000000"]
+  },
+  "COL": {
+    "name": "Avalanche",
+    "city": "Colorado",
+    "colors": ["#6F263D", "#236192", "#FFFFFF", "#A2AAAD"]
+  },
+  "CBJ": {
+    "name": "Blue Jackets",
+    "city": "Columbus",
+    "colors": ["#002654", "#CE1126", "#FFFFFF", "#CE1126"]
+  },
+  "DAL": {
+    "name": "Stars",
+    "city": "Dallas",
+    "colors": ["#006847", "#111111", "#FFFFFF"]
+  },
+  "DET": {
+    "name": "Red Wings",
+    "city": "Detroit",
+    "colors": ["#CE1126", "#CE1126", "#FFFFFF"]
+  },
+  "EDM": {
+    "name": "Oilers",
+    "city": "Edmonton",
+    "colors": ["#FF4C00", "#041E42", "#041E42", "#FFFFFF"]
+  },
+  "FLA": {
+    "name": "Panthers",
+    "city": "Florida",
+    "colors": ["#C8102E", "#041E42", "#FFFFFF", "#B9975B"]
+  },
+  "LAK": {
+    "name": "Kings",
+    "city": "Los Angeles",
+    "colors": ["#111111", "#A2AAAD", "#FFFFFF", "#A2AAAD"]
+  },
+  "MIN": {
+    "name": "Wild",
+    "city": "Minnesota",
+    "colors": ["#154734", "#A6192E", "#DDCBA4", "#A6192E"]
+  },
+  "MTL": {
+    "name": "Canadiens",
+    "city": "Montreal",
+    "colors": ["#AF1E2D", "#192168", "#FFFFFF", "#192168"]
+  },
+  "NSH": {
+    "name": "Predators",
+    "city": "Nashville",
+    "colors": ["#FFB81C", "#041E42", "#041E42", "#FFFFFF"]
+  },
+  "NJD": {
+    "name": "Devils",
+    "city": "New Jersey",
+    "colors": ["#CE1126", "#000000", "#FFFFFF", "#000000"]
+  },
+  "NYI": {
+    "name": "Islanders",
+    "city": "New York",
+    "colors": ["#00539B", "#F47D30", "#FFFFFF", "#F47D30"]
+  },
+  "NYR": {
+    "name": "Rangers",
+    "city": "New York",
+    "colors": ["#0038A8", "#CE1126", "#CE1126", "#FFFFFF"]
+  },
+  "OTT": {
+    "name": "Senators",
+    "city": "Ottawa",
+    "colors": ["#E31837", "#C69214", "#FFFFFF", "#000000"]
+  },
+  "PHI": {
+    "name": "Flyers",
+    "city": "Philadelphia",
+    "colors": ["#F74902", "#000000", "#FFFFFF", "#000000"]
+  },
+  "PIT": {
+    "name": "Penguins",
+    "city": "Pittsburgh",
+    "colors": ["#000000", "#FCB514", "#FCB514", "#FFFFFF"]
+  },
+  "SJS": {
+    "name": "Sharks",
+    "city": "San Jose",
+    "colors": ["#006D75", "#EA7200", "#FFFFFF", "#000000"]
+  },
+  "STL": {
+    "name": "Blues",
+    "city": "St. Louis",
+    "colors": ["#002F87", "#FCB514", "#FFFFFF", "#FCB514"]
+  },
+  "TBL": {
+    "name": "Lightning",
+    "city": "Tampa Bay",
+    "colors": ["#002868", "#000000", "#FFFFFF", "#000000"]
+  },
+  "TOR": {
+    "name": "Maple Leafs",
+    "city": "Toronto",
+    "colors": ["#003E7E", "#003E7E", "#FFFFFF"]
+  },
+  "VAN": {
+    "name": "Canucks",
+    "city": "Vancouver",
+    "colors": ["#001F5B", "#00843D", "#FFFFFF", "#00843D"]
+  },
+  "VGK": {
+    "name": "Golden Knights",
+    "city": "Vegas",
+    "colors": ["#333F42", "#B4975A", "#FFFFFF", "#B4975A"]
+  },
+  "WSH": {
+    "name": "Capitals",
+    "city": "Washington",
+    "colors": ["#C8102E", "#041E42", "#FFFFFF", "#041E42"]
+  },
+  "WPG": {
+    "name": "Jets",
+    "city": "Winnipeg",
+    "colors": ["#041E42", "#004C97", "#FFFFFF", "#004C97"]
+  }
+}

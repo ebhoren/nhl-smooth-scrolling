@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{#if language}}{{language}}{{else}}en{{/if}}" dir="ltr">
+{{#block "head"}}
+  <head>
+    {{#block "meta"}}
+    {{> meta}}
+    {{/block}}
+
+    <title>{{#if title}}{{title}}{{else}}{{site.title}}{{/if}}</title>
+
+    {{#block "styles"}}
+    {{#each stylesheets}}
+    <link href="{{this}}" rel="stylesheet" />
+    {{/each}}
+    {{/block}}
+
+    {{#block "css"}}
+    {{/block}}
+  </head>
+{{/block}}
+{{#block "body"}}
+  <body>
+    <div id="app" class="app">
+      {{#block "main"}}
+      {{/block}}
+    </div>
+  </body>
+
+  {{#block "scripts"}}
+  {{#each scripts}}
+  <script src="{{this}}"></script>
+  {{/each}}
+  {{/block}}
+{{/block}}
+</html>

@@ -1,0 +1,65 @@
+---
+scripts:
+  - ../src/index.js
+stylesheets:
+  - ../src/css/index.scss
+---
+
+{{#extend "base"}}
+  {{#content "css"}}
+    <style type="text/css">
+      {{#each teams as |team abbr|}}
+      {{#with team}}
+      .team-{{abbr}} .team_bg { background-color: {{colors.[0]}}; }
+      .team-{{abbr}} .team_fg { background-color: {{colors.[1]}}; }
+      .team-{{abbr}} .team_name {
+        color: {{colors.[2]}};
+        {{#if colors.[3]}}
+        text-shadow: -1px -1px 0 {{colors.[3]}},
+                     -1px 1px 0 {{colors.[3]}},
+                     1px -1px 0 {{colors.[3]}},
+                     1px 1px 0 {{colors.[3]}};
+        {{/if}}
+      }
+
+      {{#if colors.[3]}}
+      @media (min-width: 768px) {
+        .team-{{abbr}} .team_name {
+          text-shadow: -2px -2px 0 {{colors.[3]}},
+                       -2px 2px 0 {{colors.[3]}},
+                       2px -2px 0 {{colors.[3]}},
+                       2px 2px 0 {{colors.[3]}};
+        }
+      }
+      @media (min-width: 1024px) {
+        .team-{{abbr}} .team_name {
+          text-shadow: -3px -3px 0 {{colors.[3]}},
+                       -3px 3px 0 {{colors.[3]}},
+                       3px -3px 0 {{colors.[3]}},
+                       3px 3px 0 {{colors.[3]}};
+        }
+      }
+      {{/if}}
+
+      {{/with}}
+      {{/each}}
+    </style>
+  {{/content}}
+  {{#content "main"}}
+    <a href="https://github.com/ebhoren/nhl-smooth-scrolling" class="github-ribbon"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
+    <ul class="teams">
+      {{#each teams as |team abbr|}}
+      {{#with team}}
+      <li class="team team-{{abbr}}">
+        <div class="team_city team_text">{{city}}</div>
+        <div class="team_bg team_color"></div>
+        <div class="team_abbr">{{abbr}}</div>
+        <div class="team_name team_text">{{name}}</div>
+        <div class="team_fg team_color"></div>
+      </li>
+      {{/with}}
+      {{/each}}
+    </ul>
+  {{/content}}
+{{/extend}}
